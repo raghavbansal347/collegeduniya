@@ -1,0 +1,290 @@
+@font-face{
+  font-family: 'din';
+  src: url(./fonts/DINPro-Bold_13934.ttf) format('truetype');
+}
+@font-face{
+  font-family: 'dinmedium';
+  src: url(./fonts/DINPro-Medium_13936.ttf) format('truetype');
+}
+
+.App {
+  height: 100vh;
+  overflow: auto;
+}
+
+.college{
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)), url(/static/media/college2.619ee97e.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 233.2px;
+  width: 100%;
+  position: relative;
+  border-top-right-radius: 3.8px;
+  border-top-left-radius: 3.8px;
+}
+
+.heading p{
+  font-size: 18.5px;
+  color: #444444;
+  font-family: 'dinmedium';
+}
+.wrapper{
+  margin-left: 51.8px;
+  margin-right: 51px;
+}
+.promoted{
+  clip-path: polygon(100% 1%, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+  background-color: #68a7ff;
+  width: 152px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  bottom: 9%;
+  top: -7%;
+  
+  
+
+}
+.promoted p{
+  margin-left: 37px;
+  color: white;
+  font-size: 15px;
+  padding-top:8px;
+  text-align: center;
+  position: relative;
+  top: -16px;
+  font-family: 'dinmedium';
+ 
+}
+.rating{
+  width: 75px;
+  height: 53px;
+  background-color: #f5a626;
+  text-align: center;
+  border-radius: 3.8px;
+  position: absolute;
+  right: 13px;
+  top: 28px;
+}
+.rating small{
+  display: block;
+  font-size: 13.5px;
+  font-family: 'dinmedium';
+  color: white;
+}
+.ratingFinal{
+  font-family: 'din';
+  font-size: 18.5px;
+}
+.smallWrapper{
+  margin-top: 4px;
+}
+.heading{
+  margin-bottom: 68px;
+  margin-top: 49px;
+}
+
+.filter{
+  background-color: white;
+  color: #444444;
+  font-size: 13.5px;
+  font-family: 'dinmedium';
+  padding: 7px 17px;
+  border-radius: 16.5px;
+  width: 135px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 7px;
+}
+.distance{
+  background-color: white;
+  color: #444444;
+  font-size: 13.5px;
+  font-family: 'dinmedium';
+  padding: 7px 15px;
+  width: 93px;
+  text-align: center;
+  border-radius: 16.5px;
+  display: inline-block;
+}
+.rank p{
+  font-size: 13.5px;
+  color: white;
+  font-family: 'dinmedium';
+}
+.rank{
+  display: inline-block;
+  margin-left: 100px;
+}
+.filterWrapper{
+  position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 14.3px;
+    display: inline-block;
+}
+
+.strikePrice{
+  display: flex;
+}
+.parentDiv{
+  width: 48%;
+  box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.2);
+  border-radius: 3.8px;
+  display: inline-block;
+  margin-bottom: 74px;
+  margin-right: 2%;
+}
+.parentDiv1{
+  width: 637.3px;
+  box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.2);
+  border-radius: 3.8px;
+  display: inline-block;
+}
+.collegeName p{
+  font-size: 18.5px;
+  font-family: 'din';
+  color: #444444;
+  margin-bottom: 11px;
+}
+
+.discount{
+  clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  width: 29px;
+  height: 14px;
+  background: radial-gradient(closest-side circle at 22%, transparent 25%, #dd1c26 25.5%);
+  text-align: end;
+   display: inline-block;
+  padding: 1px;
+  margin-left: 4px;
+  
+}
+.discount small{
+  text-align: end;
+    font-size: 11px;
+    position: relative;
+    top: -4px;
+    left: -5px;
+    color: white;
+    font-family: 'dinmedium'; 
+}
+.bottomDetails{
+  padding-left: 17px;
+}
+.verticalLine{
+  border-left: 2px solid #adadad;
+  height: 12px;
+  margin-left: 6px;
+  margin-right: 6px;
+  color: #444444;
+}
+.distanceFrom{
+  display: flex;
+  align-items: center;
+  font-family: 'dinmedium';
+
+}
+.distanceFrom p{
+  font-size: 13.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.green{
+  color: #37b396;
+  font-size: 13.5px;
+  font-family: 'dinmedium';
+  margin-right: 5px;
+}
+.grey1{
+  color: #adadad;
+  font-size: 13.5px;
+  font-family: 'dinmedium';
+}
+.match{
+  color: #adadad;
+  font-size: 13.5px;
+  font-family: 'dinmedium';
+}
+.match p{
+  margin-top: 17px;
+}
+.detailsWrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.finalPrice p{
+  font-size: 28.5px;
+  font-family: 'din';
+  margin-top: 13px;
+  color: #dd1c26;
+  margin-bottom: 0px;
+}
+.details{
+  margin-right: 27px;
+}
+.sem p{
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: 11px;
+    font-family: 'dinmedium';
+}
+.flat{
+  font-family: 'dinmedium';
+  font-size: 13.5px;
+  color: #444444;
+}
+.off p{
+  font-family: 'din';
+  font-size: 13.5px;
+  color: #444444;
+}
+.login{
+  color: #1999d2;
+  font-family: 'din';
+  font-size: 13.5px;
+  cursor: pointer;
+}
+.features{
+  display: flex;
+  
+}
+.green1{
+  color: #37b396;
+  font-family: 'din';
+  font-size: 13.5px;
+}
+.list{
+  color: #37b396;
+  font-family: 'din';
+  font-size: 13.5px;
+}
+.dot{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.offers{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 27px;
+  position: relative;
+  left: -17px;
+  margin-bottom: 10px;
+}
+.bold{
+  font-family: 'din';
+  font-size: 13.5px;
+  color: #444444;
+}
+.off{
+  background-color: #ccf5e7;
+  padding: 0px 17px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.collegeName p{
+  display: inline-block;
+  margin-right: 10px;
+}
+
